@@ -1,1 +1,1 @@
-# Чижов Владислав Юрійович, КВ-34, 2 лабораторна, розробити функціональність для статичних сторінок Web-додатку першої лабораторної роботи із використанням шаблону MVC, [https://drive.google.com/file/d/1FvAm9qHZxc2NuVh8M-EvAwx6E8mMduW6/view?usp=drive_open](https://drive.google.com/file/d/1CGq5bZYN-6Y0ECbl9sypC27WCyabT-dt/view)
+# Чижов Владислав Юрійович, КВ-34, 2 лабораторна, розробити функціональність для статичних сторінок Web-додатку першої лабораторної роботи із використанням шаблону MVC, https://drive.google.com/file/d/1Dfw3tDHyr1WsFJQM2mM8B7qjGaE1JZDp/view
