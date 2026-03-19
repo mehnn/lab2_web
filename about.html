@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <!-- Метадані документа -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CHIIIIKS — Про додаток</title>
+
+    <!-- Підключення Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Підключення власних стилів -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Верхня навігація -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <!-- Логотип + назва (посилання на головну) -->
+            <a class="navbar-brand brand-wrap" href="index.html">
+                <!-- Ваш логотип тут -->
+                <img class="brand-logo-img" src="assets/logo.png" alt="CHIIIIKS logo">
+                <span class="brand-text">CHIIIIKS</span>
+            </a>
+
+            <!-- Кнопка меню (для мобільних) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Посилання навігації -->
+            <div id="nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="app.html">Додаток</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Профіль</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">Про додаток</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основний контент сторінки -->
+    <div class="container my-5">
+        <div class="row g-4 align-items-center">
+            <!-- Ліва картка з логотипом -->
+            <div class="col-lg-5">
+                <div class="glass p-4 text-center">
+                    <img src="assets/logo.png" alt="CHIIIIKS logo" style="width:160px;height:160px;object-fit:contain;">
+                    <div class="fw-bold fs-4 mt-2">CHIIIIKS</div>
+                    <div class="small-muted">White/Gray UI • Yellow/Green accents</div>
+                </div>
+            </div>
+
+            <!-- Опис додатка -->
+            <div class="col-lg-7">
+                <div class="glass p-4 p-md-5">
+                    <h1 class="h3 fw-bold mb-2">Про додаток</h1>
+                    <p class="small-muted mb-0">
+                        CHIIIIKS — навчальний веб-додаток для вивчення англійських слів.
+                        Є рівні A1/A2/B1, теми, режим “Вивчення” (картки) і “Вікторина”.
+                        Прогрес зберігається в localStorage (без сервера).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer class="mt-5 py-4">
+        <div class="container d-flex flex-wrap gap-2 justify-content-between align-items-center">
+            <div class="small-muted">© 2026 CHIIIIKS</div>
+            <div class="small-muted">About</div>
+        </div>
+    </footer>
+
+    <!-- Підключення Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
